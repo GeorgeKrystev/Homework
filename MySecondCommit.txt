@@ -1,5 +1,6 @@
 Freedom of expression is like the air we breathe, 
 we don't feel it, until people take it away from us. 
 
-find /home/apec/workspace/FindAndRename/AllExtension/InThisFolder -name "*.c" -exec rename -v 's/\.c$/\.cpp/' '{}' +;
 
+find /home/apec/workspace/FindAndRename/AllExtension/InThisFolder -name "*.c" -exec rename -v 's/\.c$/\.cpp/' '{}' +;
+Finding all files with *.c extension in local folder and renaming all extentions to *.cpp.
